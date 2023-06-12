@@ -183,7 +183,7 @@ body {
 }
 .klient_img{
   padding-top: 20px;
-  width: 100%;
+ 
     height: 110px;
     
     
@@ -195,13 +195,13 @@ body {
 @media (max-width: 600px){
     .klient_img{
         height: 53px;
-        width: 100%;
+        
         
     }}
     @media (max-width: 460px){
         .klient_img{
             height: 44px;
-            width: 100%;
+           
             
         }}
        
@@ -210,7 +210,7 @@ body {
 @media (max-width: 420px){
     .klient_img{
         height: 42px;
-        width: 100%;
+       
         
     }
     .reklama-title-1{
@@ -223,13 +223,13 @@ body {
     @media (max-width: 410px){
         .klient_img{
             height: 40px;
-            width: 100%;
+           
             
         }}
         @media (max-width: 370px){
             .klient_img{
-                height: 40px;
-                width: 100%;
+                height: 39px;
+               
                 
             }}
            
