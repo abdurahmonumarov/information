@@ -1,3 +1,20 @@
+.fa-youtube-play{
+
+    color: red;
+}
+.fa-vk{
+    color: rgb(29, 141, 201);
+}
+.fa-phone{
+    color: green;
+}
+.fa-instagram{
+    /* color: rgb(253, 29, 29); */
+    color: rgb(245, 96, 64);
+    
+    
+    
+}
 #myVideo {
     position: fixed;
     right: 0;
@@ -7,35 +24,6 @@
     
     min-width: 100%; 
     min-height: 100%;
-}
-.fa-youtube-play{
-
-    color: red;
-}
-.fa-telegram{
-    /* color: rgb(29, 141, 201); */
-    color: rgb(25, 154, 224);
-}
-.fa-phone{
-    color: green;
-     
-}
-.fa-instagram{
-    /* color: rgb(253, 29, 29); */
-    color: rgb(245, 96, 64);
-    
-    
-    
-}
-.round{
-    border-radius: 100px;
-    align-items: center;
-    
-   width:  180px;
-   margin-left: auto;
-   margin-right: auto;
-   display: block;
-   max-width: 100%;
 }
 .header{
     max-height:100%;
@@ -52,10 +40,11 @@ a{
 
 }
 .header__title{
-    font-size: 43px;
+    font-size: 40px;
     justify-content: center;
     text-align: center;
-    /* font-family: cursive; */
+    font-family: unset;
+    
 }
 .haeder__text{
     text-align: center;
@@ -97,14 +86,14 @@ a{
     
     } */
     @keyframes glowing {
-        0% { background-color: #0111268c; box-shadow: 0 0 5px #fafafa }
-        50% { background-color: #00162c69; box-shadow: 0 0 20px #c2bcbc; }
-        100% { background-color: #021f3b7a; box-shadow: 0 0 5px #ffffff; }
+        0% { background-color: #00000066; box-shadow: 0 0 5px #f1f4f2 }
+        50% { background-color: #00000077; box-shadow: 0 0 20px #e1e4e3; }
+        100% { background-color: #00000088; box-shadow: 0 0 5px #e4eeeb; }
         }
-    .btn__info-link {
-    animation: glowing 1800ms infinite ;
-    
-    }
+        .btn__info-link {
+        animation: glowing 1500ms infinite ;
+        
+        }
 .a4{
     padding: 7px;
     font-size: 30px;
@@ -119,7 +108,7 @@ a{
 
 body {
     margin: 0;
-    font-family: Arial;
+    /* font-family: Arial; */
     font-size: 17px;
 }
 .header{
@@ -151,144 +140,125 @@ body {
 .reklama-title{
     padding-top: 7px;
     text-align: center;
-}
-@media(max-width: 490px){
-    .haeder__text{
-        font-size: 29px;
-    }
-    .haeder__text-1{
-        font-size: 28px;
-    }
-
-}
-@media(max-width: 445px){
-    .haeder__text{
-        font-size: 27px;
-        
-    }
-    .haeder__text-1{
-        font-size: 25px;
-    }
-    .reklama-title{
-        font-size: 20px;
-    }
-
-}
-@media(max-width: 420px){
-    .haeder__text{
-        font-size: 26px;
-    }
-    .haeder__text-1{
-        font-size: 24px;
-    }
-
-}
-@media(max-width: 405px){
-    .haeder__text{
-        font-size: 25px;
-        
-    }
-    .haeder__text-1{
-        font-size: 23px;
-    }
-    .header__title{
-        font-size: 30px;
-    }
-
-}
-@media (max-width: 436px){
-    .header__title{
-        font-size: 35px;
-    }
-  .header__title{
-    font-size: ;
-  }
-  .about{
-    font-size: 25px;
-  }
-  .haeder__text-1{
-    font-size: 25px;
-  }
-  .about-text{
-    font-size: 22px;
-  }
-  .haeder__text{
     font-size: 30px;
-  }
-  .project-title{
-    font-size: 25px;
-  }
-  .btn__info-link{
-    font-size: 21px;
-  }
+}
+.round{
+    border-radius: 100px;
+    align-items: center;
+    
+   width:  180px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   max-width: 100%;
+}
+.img{
+    display: flex;
+   align-items: center;
+    gap: 15px;
+   text-align: center;
+   justify-content: center;
+   padding-bottom: 10px;
+
+    
+}
+.klient{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.reklama-title-1{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+}
+.pubg{
+    width: 100px;
+}
+.klient_img{
+  padding-top: 20px;
+  width: 100%;
+    height: 110px;
+    
+}
+
+
+
+
+
+@media (max-width: 420px){
+    .reklama-title{
+        font-size: 27px;
     }
-    @media (max-width: 396px){
+    }
+    @media (max-width: 407px){
+        /* .klient_img{
+            padding-top: 20px;
+              width: 60px;
+              height: 61px;
+              
+          } */
         .header__title{
-            font-size: 27px;
+            font-size: 35px;
         }
-        .round{
-            width: 150px;
+        .a4{
+            font-size: 25px;
         }
-     
-      .about{
-        font-size: 23px;
-      }
-      .haeder__text-1{
-        font-size: 23px;
-      }
-      .about-text{
-        font-size: 21px;
-        max-width: 330px;
-      }
-      .haeder__text{
-        font-size: 26px;
-      }
-      .project-title{
-        font-size: 23px;
-      }
-      .btn__info-link{
-        font-size: 18px;
-      }
-      .a4{
-        font-size: 24px;
-      }
         }
-        @media (max-width: 317px){
-            .header__title{
+        @media (max-width: 375px){
+            .round{
+                width: 160px;
+            }
+            .haeder__text-1{
+                font-size: 28px;
+            }
+            .haeder__text{
+                font-size: 25px;
+            }
+            .reklama-title{
+                font-size: 25px;
+            }
+            .btn__info-link{
                 font-size: 23px;
             }
-            .round{
-                width: 150px;
+            .a4{
+                font-size: 25px;
             }
-         .reklama-title{
-
-         }
-          .about{
-            font-size: 23px;
-          }
-          .haeder__text-1{
-            font-size: 20px;
-          }
-          .about-text{
-            font-size: 21px;
-            max-width: 280px;
-          }
-          .haeder__text{
-            font-size: 22px;
-          }
-          .project-title{
-            font-size: 20px;
-          }
-          .btn__info-link{
-            font-size: 15px;
-          }
-          .a4{
-            font-size: 24px;
-          }
             }
-            @media (max-width: 360px){
-                .about-text{
+            @media (max-width: 363px){
+                .header__title{
+                    font-size: 32px;
+                }
+                .haeder__text-1{
+                    font-size: 26px;
+                }
+                .haeder__text{
+                    font-size: 23px;
+                }
+                .reklama-title{
+                    font-size: 23px;
+                }
+                .btn__info-link{
                     font-size: 21px;
-                    max-width: 300px;
-                  }
+                }
+            }
+            @media (max-width: 334px){
+                .header__title{
+                    font-size: 30px;
+                }
+                .haeder__text-1{
+                    font-size: 26px;
+                }
+                .haeder__text{
+                    font-size: 24px;
+                }
+                .reklama-title{
+                    font-size: 26px;
+                }
+                .btn__info-link{
+                    font-size: 20px;
+                }
+    
             }
